@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "read_faster",
-    "slug": "read_faster",
+    "slug": "read-faster",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nevrohelios.read_faster"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0c9eece7-109a-4b16-828b-ca36296443c4"
+      }
+    },
+    "owner": "nevrohelios"
   }
 }
